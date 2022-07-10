@@ -1,5 +1,5 @@
-
 # auth-task-tracker
+
 Improved the previously created app "react-task-tracker"
 added 
 authentication(google oauth 2.0), database, state manager (redux) and used a nodejs backend
