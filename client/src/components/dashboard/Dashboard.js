@@ -4,11 +4,19 @@ import { connect } from "react-redux";
 
 import Header from "./Header";
 import Tasks from "./Tasks";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import AddTask from "./AddTask";
+import store from "../../store";
+import { fetchTasks } from "../../actions/tasks";
 const Dashboard = ({ auth: { user }, tasks: { tasks } }) => {
   const [showAddTask, setShowAddTask] = useState(true);
+  useEffect(() => {
+    const fetchT = () => {
+      store.dispatch(fetchTasks());    };
+    fetchT();
+   
 
+  },[]);
   return (
     <div>
       <Header

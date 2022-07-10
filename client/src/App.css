@@ -33,6 +33,7 @@ body {
   text-align: center;
 
   margin: 10vh auto;
+
 }
 
 .header {
@@ -80,10 +81,9 @@ body {
   border-left: 5px solid green;
 }
 .delete-button {
-  margin: 20px;
+  margin-left: 10px ;
   top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
+
   transform: translate(-50%, -50%);
 }
 .task h3 {

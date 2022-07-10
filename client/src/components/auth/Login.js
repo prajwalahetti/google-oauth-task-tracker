@@ -8,7 +8,7 @@ const Login = ({ setAlert, login }) => {
   };
 
   return (
-    <div className=" landing" style={{ paddingTop: "60px" }}>
+    <div className="landing" >
       <h2>Click to </h2>
       <button onClick={googleAuth} className="button">
         {" "}
