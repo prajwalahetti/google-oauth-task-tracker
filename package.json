@@ -1,0 +1,29 @@
+{
+  "name": "google-oatuh-20",
+  "version": "1.0.0",
+  "description": "simple implementaion of google oauth 20 in mern project",
+  "main": "server.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server"
+  },
+  "author": "Prajwal Ahetti",
+  "license": "MIT",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.8",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.16",
+    "prettier": "2.7.0"
+  }
+}

@@ -1,0 +1,12 @@
+export const SET_ALERT = "SET_ALERT";
+export const REMOVE_ALERT = "REMOVE_ALERT";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const LOGOUT = "LOGOUT";
+export const LOAD_USER = "LOAD_USER";
+export const FETCH_TASK = "FETCH_TASK";
+export const ADD_TASK = "ADD_TASK";
+export const DELETE_TASK = "DELETE_TASK";
+export const TOGGLE_TASK = "TOGGLE_TASK";
+export const TASK_ERROR = "TASK_ERROR";
