@@ -9,11 +9,10 @@ const Login = ({ setAlert, login }) => {
 
   return (
     <div className="landing" >
-      <h2>Click to </h2>
       <button onClick={googleAuth} className="button">
         {" "}
         <div className="logo"></div>
-        <div className="text">Sign in with Google</div>
+        <div className="sign-in-text">Sign in with Google</div>
       </button>
     </div>
   );

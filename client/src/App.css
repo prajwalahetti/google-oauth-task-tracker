@@ -12,14 +12,17 @@ body {
 }
 
 .container {
-  margin: 30px auto;
   overflow: auto;
   border: 1px solid steelblue;
-  padding: 30px;
   border-radius: 5px;
-
   width: 50%;
   min-height: 300px;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  padding-bottom: 1rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
 }
 .alert {
   margin: 5px;
@@ -32,7 +35,8 @@ body {
 .landing {
   text-align: center;
 
-  margin: 10vh auto;
+  margin-top: 15vh ;
+
 
 }
 
@@ -154,6 +158,9 @@ div.logo {
   background-size: contain;
   display: inline-block;
   vertical-align: middle;
+  border-radius: 50%;
+  padding-left:2vh;
+
 }
 
 button {
@@ -162,14 +169,16 @@ button {
   font-size: 16px;
   outline: none;
   border: initial;
-  background-color: initial;
-  padding: 6px;
+  background-color: rgb(179, 211, 238) ;
+  padding: 10px;
 
-  border: 1px solid black;
+border-radius: 15px;
 }
-text {
+.sign-in-text {
   display: inline-block;
   vertical-align: middle;
+  padding-left:2vh;
+  padding-right: 2vh;
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -192,15 +201,6 @@ img {
   width: 100%;
 }
 
-/* Utilities */
-.container {
-  max-width: 1100px;
-  margin: auto;
-  overflow: hidden;
-  padding: 0 2rem;
-  margin-top: 6rem;
-  margin-bottom: 3rem;
-}
 
 /* Text Styles*/
 .x-large {
@@ -314,7 +314,7 @@ img {
   color: #fff;
 }
 .bg-cream {
-  background-color: steelblue;
+  background-color: rgb(107, 170, 221);
   color: #333;
 }
 .btn-light,
