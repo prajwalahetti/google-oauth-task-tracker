@@ -10,9 +10,6 @@ MONGO_URI=
 GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
 PASSPORT_SESSION_SECRET=
->>>>>>> 81603e0 (initial commit)
->>>>>>> e5a7ecc (initial commit)
-
 
 create .env file in root directory of client app
 REACT_APP_SERVER_URL=
