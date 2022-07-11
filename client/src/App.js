@@ -12,7 +12,6 @@ import { useEffect } from "react";
 import { loadUser } from "./actions/auth";
 import PrivateRoute from "./components/routing/PrivateRoute";
 import NavBar from "./components/layout/NavBar";
-
 const App = () => {
   useEffect(() => {
     const fetchUser = () => {
