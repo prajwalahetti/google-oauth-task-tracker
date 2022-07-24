@@ -162,7 +162,6 @@ div.logo {
   padding-left:2vh;
 
 }
-
 button {
   font-family: Akzidenz Grotesk BQ Light, Helvetica;
   color: #42494f;
@@ -174,6 +173,9 @@ button {
 
 border-radius: 15px;
 }
+
+
+
 .sign-in-text {
   display: inline-block;
   vertical-align: middle;

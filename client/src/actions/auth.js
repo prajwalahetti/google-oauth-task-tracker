@@ -14,6 +14,8 @@ export const login = () => (dispatch) => {
     dispatch({
       type: LOGIN_SUCCESS,
     });
+    dispatch(setAlert("login success", "success"));
+
   } catch (err) {
     const errors = err.response.data.errors;
 
